@@ -13,3 +13,4 @@ AWS account setup · Root account protection · MFA · Identity and access manag
 ## Evidence
 
 ![Root Account MFA Enabled](screenshots/root-account-mfa-enabled.png)
+[View Root Account Before MFA](screenshots/root-account-before-mfa.png)
