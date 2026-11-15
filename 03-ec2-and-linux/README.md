@@ -22,7 +22,9 @@ Launched and configured an Ubuntu EC2 instance within the custom VPC.
 ![Successful SSH Connection](screenshots/Successful%20SSH%20Connection.png)
 
 ## Linux Practice
-- Updated and maintained the Ubuntu system.
+-  ### Updated and maintained the Ubuntu system.
+
+![Ubuntu System Updates](screenshots/Updated%20and%20maintained%20the%20Ubuntu%20system..png)
 - Practised Linux commands, file management, and permissions.
 - Explored users, groups, and privilege management.
 
