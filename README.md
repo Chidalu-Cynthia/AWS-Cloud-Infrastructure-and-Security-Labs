@@ -1,52 +1,42 @@
-# AWS VPC Networking Lab
+# AWS Cloud Infrastructure & Security Labs
 
-## Project Overview
+## Overview
 
-This project documents my hands-on experience building and configuring a Virtual Private Cloud (VPC) in Amazon Web Services (AWS).
+This repository documents my hands-on journey in **AWS cloud infrastructure, networking, and security**.
 
-The goal is to understand how AWS networking works in practice, including network segmentation, subnet design, routing, and the deployment of resources within a cloud environment.
+It covers practical work with AWS services, from setting up cloud resources and configuring networks to deploying compute and storage services, applying security controls, and exploring monitoring tools.
 
-The lab is also an opportunity to explore how network architecture and security configurations contribute to building a more secure and resilient cloud infrastructure.
+The goal is to understand how these services work together to build and secure cloud environments.
 
-## Project Objectives
+## Objectives
 
-The objectives of this project are to:
+- Build and configure AWS cloud infrastructure.
+- Understand cloud networking and resource connectivity.
+- Deploy and manage compute and storage resources.
+- Apply security controls and access management.
+- Explore cloud monitoring, logging, and auditing.
+- Develop practical Linux administration skills.
 
-- Understand AWS VPC networking.
-- Create public and private subnets.
-- Configure route tables and an Internet Gateway.
-- Deploy an Ubuntu EC2 instance.
-- Apply basic cloud network security controls.
+## Technologies & Services
 
-## AWS Services and Technologies
+AWS VPC · EC2 · EBS · S3 · EFS · IAM · KMS · CloudWatch · CloudTrail · Ubuntu Linux
 
-- **Amazon VPC:** Used to create an isolated virtual network.
-- **Amazon EC2:** Used to deploy an Ubuntu virtual server.
-- **Internet Gateway:** Configured to provide internet connectivity.
-- **Amazon EBS:** Used for EC2 storage.
-- **Security Groups:** Used to control network traffic.
-- **AWS KMS:** Used for EBS volume encryption.
-- **Ubuntu Server:** Operating system running on the EC2 instance.
+## Project Structure
 
-## Network Architecture
+| Folder | Focus |
+|---|---|
+| `01-account-setup-and-security` | Account setup and initial security |
+| `02-vpc-networking` | VPC, subnets, route tables and connectivity |
+| `03-ec2-and-linux` | EC2 deployment and Linux administration |
+| `04-ebs-storage` | Block storage and volume management |
+| `05-monitoring-and-auditing` | CloudWatch and CloudTrail |
+| `06-s3-storage` | Object storage and versioning |
+| `07-efs-storage` | Shared file storage and mounting |
+| `08-iam-and-access-management` | Identity, permissions and access control |
 
-### VPC Configuration
+Each folder contains its own documentation, configurations, practical exercises, and lessons learned.
 
-- VPC IPv4 CIDR: `10.0.0.0/16`
-- Number of Availability Zones: 2
-- Total number of subnets: 4
-- Public subnets: 2
-- Private subnets: 2
-- Internet Gateway: Created and attached to the VPC.
 
-The network was designed to distribute subnets across two Availability Zones, providing network segmentation and a foundation for building resilient cloud infrastructure.
+---
 
-## Implementation
-
-### 1. VPC Creation
-
-Created a custom Amazon Virtual Private Cloud (VPC) with the following configuration:
-
-- IPv4 CIDR block: `10.0.0.0/16`
-- Purpose: To provide an isolated network environment for deploying and managing cloud resources.
-- Network design: The VPC was designed to support public and private subnets across two Availability Zones.
+**Author:** [Chidalu Cynthia](https://github.com/Chidalu-Cynthia)
