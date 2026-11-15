@@ -13,3 +13,8 @@ Designed and configured a custom AWS network across two Availability Zones.
 
 ## Key Skills
 VPC design · Subnetting · Route tables · Internet connectivity · Network segmentation · Security groups
+## Evidence
+
+### Internet Gateway Attached to VPC
+
+![Internet Gateway Attached](screenshots/Creatd-and-attached-internet-gateway.png)
