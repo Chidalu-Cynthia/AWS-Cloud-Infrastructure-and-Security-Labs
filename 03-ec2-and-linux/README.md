@@ -7,7 +7,7 @@ Launched and configured an Ubuntu EC2 instance within the custom VPC.
 ### Ubuntu EC2 Instance Launched
 
 ![Launched Ubuntu EC2 Instance](screenshots/Launched%20Ubuntu%20EC2%20Instance.png)
-## Configurations
+- ## EC2 Instance Configuration
 - **AMI:** Ubuntu Server 26.04 LTS.
 - **Instance Type:** `t3.micro`.
 - **Network:** Deployed in a public subnet with a public IP.
@@ -15,6 +15,8 @@ Launched and configured an Ubuntu EC2 instance within the custom VPC.
 - **Storage:** 8 GiB encrypted EBS root volume.
 - **Instance Security:** IMDSv2 enforced; CPU credit mode set to Standard.
 - **Access:** Connected securely using SSH key authentication.
+
+![EC2 Instance Configuration](screenshots/Instance%20Configuration.jpeg)
 
 ## Linux Practice
 - Updated and maintained the Ubuntu system.
