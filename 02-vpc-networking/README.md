@@ -17,4 +17,4 @@ VPC design · Subnetting · Route tables · Internet connectivity · Network seg
 
 ### Internet Gateway Attached to VPC
 
-![Internet Gateway Attached](screenshots/Creatd-and-attached-internet-gateway.png)
+![Internet Gateway Attached](screenshots/Creatd%20and%20attached%20internet%20gateway.png)
