@@ -3,6 +3,10 @@
 ## Overview
 Launched and configured an Ubuntu EC2 instance within the custom VPC.
 
+
+### Ubuntu EC2 Instance Launched
+
+![Launched Ubuntu EC2 Instance](screenshots/Launched%20Ubuntu%20EC2%20Instance.png)
 ## Configurations
 - **AMI:** Ubuntu Server 26.04 LTS.
 - **Instance Type:** `t3.micro`.
