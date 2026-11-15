@@ -10,3 +10,6 @@ Set up an AWS account and applied initial account security measures.
 
 ## Key Skills
 AWS account setup · Root account protection · MFA · Identity and access management
+## Evidence
+
+![Root Account MFA Enabled](screenshots/root-account-mfa-enabled.png)
