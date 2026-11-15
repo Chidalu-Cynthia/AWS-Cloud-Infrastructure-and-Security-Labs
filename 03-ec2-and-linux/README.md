@@ -17,6 +17,9 @@ Launched and configured an Ubuntu EC2 instance within the custom VPC.
 - **Access:** Connected securely using SSH key authentication.
 
 ![EC2 Instance Configuration](screenshots/Instance%20Configuration.jpeg)
+### Successful SSH Connection
+
+![Successful SSH Connection](screenshots/Successful%20SSH%20Connection.png)
 
 ## Linux Practice
 - Updated and maintained the Ubuntu system.
