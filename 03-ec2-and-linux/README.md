@@ -25,8 +25,11 @@ Launched and configured an Ubuntu EC2 instance within the custom VPC.
 -  ### Updated and maintained the Ubuntu system.
 
 ![Ubuntu System Updates](screenshots/Updated%20and%20maintained%20the%20Ubuntu%20system..png)
+
 - Practised Linux commands, file management, and permissions.
 - Explored users, groups, and privilege management.
+
+![Explored File and Directory Permissions](screenshots/Explored%20file%20and%20directory%20permissions.png)
 
 ## Key Skills
 EC2 deployment · SSH · Linux administration · EBS encryption · Instance security
