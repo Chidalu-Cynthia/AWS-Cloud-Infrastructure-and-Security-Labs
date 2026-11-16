@@ -5,6 +5,7 @@ Configured Amazon S3 for object storage and tested bucket versioning and object 
 
 ## Configurations & Activities
 - Created the `cloudsecurity-storage-lab-2026` bucket.
+![S3 Bucket Created](screenshots/Created%20Bucket.png)
 - Created and uploaded `storage-lab-notes.txt`.
 - Enabled bucket versioning.
 - Modified the file by adding Version 2 content and uploaded it again.
