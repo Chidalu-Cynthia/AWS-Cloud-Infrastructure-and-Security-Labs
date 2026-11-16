@@ -10,6 +10,7 @@ Configured Amazon S3 for object storage and tested bucket versioning and object 
 - Enabled bucket versioning.
 ![S3 Bucket Versioning Enabled](screenshots/Enabled%20bucket%20versioning.png)
 - Modified the file by adding Version 2 content and uploaded it again.
+![Text File Uploaded to S3 Bucket](screenshots/Uploaded%20text%20file%20to%20Bucket.png)
 - Verified that S3 retained two versions of the object.
 - Downloaded the older version and confirmed that its original content was preserved.
 - Verified server-side encryption (SSE-S3) and S3 Standard storage class.
