@@ -11,6 +11,7 @@ Configured Amazon Elastic Block Store (EBS) to provide persistent block storage 
 - Formatted and mounted the volume in Ubuntu.
 ![EBS Volume Formatted and Mounted in Ubuntu](screenshots/Volume%20formatted%20and%20mounted%20in%20Ubuntu..png)
 - Created test files to verify storage functionality.
+![Test File Created on Mounted EBS Volume](screenshots/Test%20file%20created%20on%20the%20mounted%20volume..png)
 - Explored EBS snapshots for data backup.
 
 ## Key Skills
