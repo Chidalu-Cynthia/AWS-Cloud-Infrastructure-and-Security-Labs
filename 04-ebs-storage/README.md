@@ -13,6 +13,7 @@ Configured Amazon Elastic Block Store (EBS) to provide persistent block storage 
 - Created test files to verify storage functionality.
 ![Test File Created on Mounted EBS Volume](screenshots/Test%20file%20created%20on%20the%20mounted%20volume..png)
 - Explored EBS snapshots for data backup.
+![EBS Snapshot Created](screenshots/Created%20snapshot.png)
 
 ## Key Skills
 EBS volume management · Volume attachment · Linux disk formatting and mounting · Data persistence · Snapshots
