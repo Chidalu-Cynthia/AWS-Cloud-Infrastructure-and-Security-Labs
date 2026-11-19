@@ -5,6 +5,7 @@ Configured Amazon Elastic File System (EFS) and mounted shared storage on an Ubu
 
 ## Configurations & Activities
 - Created an encrypted EFS file system.
+![Encrypted EFS File System Created](screenshots/Created%20an%20encrypted%20EFS%20file%20system.png)
 - Configured mount targets across two Availability Zones.
 - Configured security groups for NFS traffic (TCP 2049).
 - Mounted the file system on the Ubuntu EC2 instance.
