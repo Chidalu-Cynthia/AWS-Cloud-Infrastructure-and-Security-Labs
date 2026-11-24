@@ -3,9 +3,9 @@
 
 A technical portfolio documenting practical work in AWS cloud infrastructure, networking, compute, storage, identity and access management, and cloud security.
 
-This repository brings together hands-on deployments, configuration exercises, security testing, troubleshooting, and technical research. Each project documents the architecture, implementation decisions, security controls, validation results, and lessons learned.
+This repository brings together hands-on deployments, configuration exercises, security testing, troubleshooting, and technical research. Each project documents its architecture, implementation decisions, security controls, validation results, and lessons learned.
 
-The focus is not only on deploying AWS resources, but also on understanding how they communicate, how access is controlled, and how security is applied across a cloud environment.
+The focus is on understanding not only how AWS resources are deployed, but also how they communicate, how access is controlled, and how security is applied across a cloud environment.
 
 ## Project Objectives
 
@@ -21,7 +21,7 @@ The focus is not only on deploying AWS resources, but also on understanding how 
 
 ## Project Index
 
-| No. | Project | AWS Services / Technologies | Work Status |
+| **No.** | **Project** | **AWS Services / Technologies** | **Work Status** |
 |---|---|---|---|
 | 01 | AWS Account Setup & Security | AWS Account, Root MFA, IAM | Hands-on |
 | 02 | VPC Networking & Network Security | VPC, Subnets, Route Tables, Internet Gateway, Security Groups | Hands-on |
@@ -40,12 +40,12 @@ The focus is not only on deploying AWS resources, but also on understanding how 
 
 ## Technical Coverage
 
-| Technical Area | Services / Technologies | Concepts and Skills |
+| **Technical Area** | **Services / Technologies** | **Concepts and Skills** |
 |---|---|---|
 | Cloud Networking | VPC, Subnets, Route Tables, Internet Gateway | CIDR planning, network segmentation, routing, public and private subnet design |
 | Compute | EC2, Lambda | Instance deployment, Linux administration, serverless execution |
 | Storage | S3, EBS, EFS | Object, block and shared file storage |
-| Identity & Access Management | IAM, STS, AWS CLI | Roles, trust policies, permissions policies, temporary credentials, least privilege |
+| Identity & Access Management | IAM, STS, AWS CLI | Roles, trust policies, permission policies, temporary credentials, least privilege |
 | Network Security | Security Groups, ALB | Traffic filtering, access restrictions, health checks, availability |
 | Encryption | AWS KMS, EBS Encryption, S3 Encryption | Encryption at rest and key management concepts |
 | Monitoring & Auditing | CloudWatch, CloudTrail | Metrics, logs, monitoring, and API activity auditing |
@@ -54,7 +54,7 @@ The focus is not only on deploying AWS resources, but also on understanding how 
 
 ## Security Controls & Practices
 
-The projects explore and demonstrate security practices including:
+The projects explored and demonstrated security practices including:
 
 - **Least privilege:** Granting workloads only the permissions required for their tasks.
 - **Identity-based access control:** Using IAM roles and policies to control access to AWS resources.
@@ -68,9 +68,9 @@ The projects explore and demonstrate security practices including:
 
 ## Evidence & Validation
 
-Each project will include relevant evidence to support the configurations and results documented.
+Projects include relevant evidence to support the configurations and results documented.
 
-| Evidence | Purpose |
+| **Evidence** | **Purpose** |
 |---|---|
 | Architecture diagrams | Show resource relationships and network design |
 | AWS Console screenshots | Demonstrate resource configurations |
@@ -104,7 +104,7 @@ AWS-Cloud-Infrastructure-and-Security-Labs/
 
 ## Tools & Technologies
 
-| Category | Tools |
+| **Category** | **Tools** |
 |---|---|
 | Cloud Platform | Amazon Web Services (AWS) |
 | Operating System | Ubuntu Linux |
@@ -127,11 +127,9 @@ Each project is documented using a consistent technical structure:
 
 ## Cost & Security Considerations
 
-These projects are conducted in a personal AWS learning environment. Resource usage and potential charges are considered during implementation.
+These projects were conducted in a personal AWS learning environment, with resource usage and potential charges considered during implementation.
 
-Sensitive information such as access keys, private SSH keys, passwords, account identifiers, and other credentials will not be published in this repository.
-
+Sensitive information such as access keys, private SSH keys, passwords, account identifiers, and other credentials was excluded from this repository.
 
 **Author:** [Chidalu Cynthia](https://github.com/Chidalu-Cynthia)
-
-[GitHub Profile](https://github.com/Chidalu-Cynthia)
+```
