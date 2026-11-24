@@ -111,8 +111,6 @@ AWS-Cloud-Infrastructure-and-Security-Labs/
 | Command Line | AWS CLI, Linux Shell, Windows PowerShell |
 | Remote Administration | SSH |
 | Web Server | Nginx |
-| Version Control | Git, GitHub |
-| Documentation | Markdown, Architecture Diagrams |
 
 ## Documentation Approach
 
