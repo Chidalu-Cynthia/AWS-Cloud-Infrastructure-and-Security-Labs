@@ -24,7 +24,7 @@ The focus is on understanding not only how AWS resources are deployed, but also 
 | **No.** | **Project** | **AWS Services / Technologies** | **Work Status** |
 |---|---|---|---|
 | 01 | AWS Account Setup & Security | AWS Account, Root MFA, IAM | Hands-on |
-| 02 | VPC Networking & Network Security | VPC, Subnets, Route Tables, Internet Gateway, Security Groups | Hands-on |
+| 02 | VPC Networking | VPC, Subnets, Route Tables, Internet Gateway, Security Groups | Hands-on |
 | 03 | EC2 Deployment & Linux Administration | EC2, Ubuntu, SSH, Nginx | Hands-on |
 | 04 | Elastic Block Storage | EBS, Snapshots, KMS | Hands-on |
 | 05 | Cloud Monitoring & Auditing | CloudWatch, CloudTrail | Hands-on exploration |
