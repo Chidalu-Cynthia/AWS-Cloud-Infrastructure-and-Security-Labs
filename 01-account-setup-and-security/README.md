@@ -47,4 +47,4 @@ This demonstrated that account-level feature availability can affect how identit
 - IAM roles, users, and Identity Center serve different identity management purposes.
 - Account feature restrictions should be understood before planning an implementation.
 
-
+[View Root Account Before MFA](screenshots/root-account-before-mfa.png)
