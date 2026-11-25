@@ -89,7 +89,7 @@ AWS-Cloud-Infrastructure-and-Security-Labs/
 ├── README.md
 │
 ├── 01-account-setup-and-security/
-├── 02-vpc-networking-and-security/
+├── 02-vpc-networking/
 ├── 03-ec2-and-linux-administration/
 ├── 04-elastic-block-storage/
 ├── 05-cloud-monitoring-and-auditing/
