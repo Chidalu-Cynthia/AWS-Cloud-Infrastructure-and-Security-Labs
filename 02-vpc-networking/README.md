@@ -1,3 +1,4 @@
+
 # AWS VPC Networking Lab
 
 ## 1. Project Overview and Objectives
@@ -17,17 +18,29 @@ Created a VPC with the IPv4 CIDR block `10.0.0.0/16`, divided into four subnets 
 
 ## 3. AWS Services and Configurations
 
-- **Amazon VPC:** Created the custom VPC.
-- **Subnets:** Created four subnets across two Availability Zones.
-- **Internet Gateway:** Created and attached `CloudSecurity-IGW`.
-- **Route Tables:** Created separate public and private route tables.
-- **Security Group:** Configured inbound access rules to control network traffic.
+- **Amazon VPC:** Created a custom VPC using the CIDR block `10.0.0.0/16`.
+
+- **Subnets:** Created four subnets across two Availability Zones, separating public and private network resources.
+
+  ![Four subnets created](screenshots/Created%20four%20subnets.png)
+
+- **Internet Gateway:** Created and attached `CloudSecurity-IGW` to the VPC.
+
+  ![Internet Gateway attached](screenshots/Creatd%20and%20attached%20internet%20gateway.png)
+
+- **Route Tables:** Configured public and private route tables with appropriate routes and subnet associations.
+
+  ![Route table configuration](screenshots/created%20route%20table.png)
+
+- **Security Group:** Configured inbound rules to control permitted network traffic.
+
+  ![Security group inbound rules](screenshots/created%20inbound%20rules%20for%20my%20security%20Group.png)
 
 ## 4. Implementation and Key Decisions
 
 - Configured the public route table with the local VPC route and a default route (`0.0.0.0/0`) through the Internet Gateway.
 - Kept the private route table limited to local VPC routing, without a direct Internet Gateway route.
-- Associated the route tables with their intended subnets.
+- Associated route tables with their intended subnets.
 - Used separate public and private subnets to establish network segmentation across both Availability Zones.
 
 ## 5. Security Considerations
@@ -35,18 +48,18 @@ Created a VPC with the IPv4 CIDR block `10.0.0.0/16`, divided into four subnets 
 - Separated public-facing and private network resources.
 - Restricted inbound access through security group rules.
 - Avoided exposing private subnets through a direct Internet Gateway route.
-- Used network segmentation to control how resources communicate.
+- Used network segmentation to control resource communication.
 
 ## 6. Testing and Validation
 
 - Reviewed the VPC and four subnet configurations.
-- Confirmed that the Internet Gateway was attached to the VPC.
+- Confirmed the Internet Gateway attachment.
 - Reviewed public and private route table configurations and subnet associations.
 - Inspected the security group's inbound rules.
 
 ## 7. Troubleshooting and Findings
 
-The project reinforced an important networking principle: a subnet is not public simply because of its name. Its route table determines whether it has a route to an Internet Gateway. Private subnets without that route do not have direct internet access through the Internet Gateway.
+The project reinforced an important networking principle: a subnet is not public simply because of its name. Its route table determines whether it has a route to an Internet Gateway.
 
 ## 8. Lessons Learned
 
@@ -54,11 +67,4 @@ The project reinforced an important networking principle: a subnet is not public
 - How Availability Zones support network distribution.
 - How route tables determine traffic paths.
 - The difference between public and private subnet routing.
-- How security groups control inbound and outbound traffic at the resource level.
-
-## Evidence
-
-- [View Internet Gateway Attachment](screenshots/Creatd%20and%20attached%20internet%20gateway.png)
-- [View Four Created Subnets](screenshots/Created%20four%20subnets.png)
-- [View Security Group Inbound Rules](screenshots/created%20inbound%20rules%20for%20my%20security%20Group.png)
-- [View Route Table](screenshots/created%20route%20table.png)
+- How security groups control network traffic at the resource level.
