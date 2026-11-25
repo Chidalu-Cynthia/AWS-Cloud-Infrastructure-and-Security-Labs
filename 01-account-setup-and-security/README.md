@@ -13,7 +13,7 @@ The project focused on the AWS account's root identity and the available account
 
 - **AWS Account:** Created an AWS account for cloud infrastructure and security practicals.
 - **Root User MFA:** Enabled multi-factor authentication to strengthen protection of the root account.
-- ![Root account MFA enabled](screenshots/root-account-mfa-enabled.png)
+ ![Root account MFA enabled](screenshots/root-account-mfa-enabled.png)
 - **AWS IAM:** Explored identity and access management options.
 - **IAM Identity Center:** Examined the available access management features.
 
